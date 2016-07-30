@@ -1,8 +1,9 @@
 def add(num):
-    ret = 0
-    for i in str(num):
-        ret += (int(i)) ** 2
-    return ret
+    return sum[int(x) for x in str(num)]
+    # ret = 0
+    # for i in str(num):
+    #     ret += (int(i)) ** 2
+    # return ret
 
 def happy_number(num):
     results = {num}
